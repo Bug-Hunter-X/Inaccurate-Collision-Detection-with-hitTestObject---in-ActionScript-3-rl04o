@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with ActionScript 3's hitTestObject() function.  Fast-moving, small objects can be missed during collision detection due to frame rate limitations.  The `bug.as` file shows the problematic code, while `bugSolution.as` offers a more robust solution using a bounding box approach.
